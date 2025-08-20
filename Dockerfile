@@ -20,4 +20,4 @@ COPY ./alembic.ini /code/alembic.ini
 COPY ./alembic /code/alembic
 
 # 設定啟動容器時要執行的指令
-CMD alembic upgrade head;uvicorn src.main:app --host 0.0.0.0 --port 8000
+CMD alembic upgrade head;uvicorn src.main:app --host 0.0.0.0 --port 8080
